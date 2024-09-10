@@ -1,0 +1,23 @@
+.tool-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #002233;
+  border-radius: 8px;
+  margin: 10px;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.tool-card:hover {
+  transform: scale(1.05);
+}
+
+.tool-icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
